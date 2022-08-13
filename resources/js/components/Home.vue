@@ -8,7 +8,7 @@
 <script>
 export default {
   setup: () => ({
-    devName: "Jorge Luís Gregório",
+    devName: "Eliseu Sturaro Bueno",
   }),
 };
 </script>
