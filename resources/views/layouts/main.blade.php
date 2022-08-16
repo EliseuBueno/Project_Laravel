@@ -12,6 +12,29 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     </head>
     <body class="antialiased">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="collapse navbar-collapse" id="navbar">
+                    <a href="/" class="navbar-brand">
+                        <img src="/img/drum.jpg" alt="Drum">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Criar Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Entrar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Cadastrar</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         <footer>
             @yield('content')
             <p>Eliseu S. Bueno &copy; 2022</p>
